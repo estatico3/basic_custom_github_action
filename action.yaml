@@ -1,0 +1,7 @@
+name: basic_custom_action
+description: Prints GITHUB_EVENT_PATH variable and `Hello, world!`string
+author: Artem Akhmetzianov
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
+    
